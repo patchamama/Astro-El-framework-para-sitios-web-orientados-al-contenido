@@ -10,3 +10,5 @@ _https://cursos.devtalles.com/courses/take/Astro_
 
 Hoja de atajos de Astro: Hoja de Atajos - Astro: https://github.com/Klerith/mas-talento/blob/main/astro/astro-cheat-sheet.pdf | [Aquí local](/blob/main/astro-cheat-sheet.pdf)
 
+### Sección 2: Introducción a Astro
+
