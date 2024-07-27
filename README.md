@@ -1,8 +1,10 @@
-# dev/Talles: Astro: El framework para sitios web orientados al contenido
+## dev/Talles: Astro: El framework para sitios web orientados al contenido
 
-https://cursos.devtalles.com/courses/take/Astro
+_https://cursos.devtalles.com/courses/take/Astro_
 
-## Sección 1: Introducción
+## Secciones
+
+### Sección 1: Introducción
 
 Instalaciones necesarias: https://gist.github.com/Klerith/b2ccb9d49385d766138e737f840650fc
 
