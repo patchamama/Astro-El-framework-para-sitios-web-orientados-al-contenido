@@ -42,7 +42,9 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 - [Tarea - Actualizar momento actual](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/9c83c6a47f2658fc206c38288207d396561ef406)
   _Aquí es importante entender que sí estamos comprobando en modo desarrollo la aplicación `npm run dev` entonces el "momento actual" y "momento actual real" tiene un mismo valor pues se está generando en el momento la fecha dinámicamente con el código js y se está mostrando. Sin embargo, ya en modo producción `npm run build & npm run preview` no es así pues la primera parte del código que determina que se mueste la hora de "momento actual" se genera puro html pegando ahí la hora en texto pero la segunda parte "momento actual real" se genera desde el código js en la sección <script>...</script> que determina que se muestre ese tiempo en el momento de visitarse la página_.
 - [Navegación entre páginas](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/5fec8c7502aa0b9cfc415ff7c3257161a05c7395)
-- [Reutilización de components]()
+- [Reutilización de components](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/a0ffa81902e479740ede3548e23300f8f7863d3b)
+- [Layouts y Props]()
+  _Los Layouts son componentes especiales que envuelven (wrapper) elementos <html>, <head> y <body> de una página y que permiten por ello insertar códigos a un template común_.
 
 ### Snippers
 
@@ -52,3 +54,4 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 
 - https://docs.astro.build/en/basics/project-structure/
 - https://docs.astro.build/en/reference/cli-reference/#astro-preferences
+- https://docs.astro.build/en/basics/layouts/
