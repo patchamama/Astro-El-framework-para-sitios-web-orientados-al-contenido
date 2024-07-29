@@ -54,7 +54,7 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 - [Recapitulación](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/25e2ff07df5f7598856eeea0af7e2faa21506586)
   _La diferencia de referenciar el archivo de css usando desde Astro `import '../styles/global.css'` y usando directamente en el head la referencia al archivo en la carpeta public `<link rel="stylessheet" href="styles/global.css" />` es que con import se preprocesa por el compilador de Astro el css y se minimiza_.
 - [Código fuente](https://github.com/DevTalles-corp/astro-foundation/tree/fin-seccion-02)
-- [Ver sitio en producción en github pages]()
+- [Ver sitio en producción en github pages](https://patchamama.github.io/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/dist_section2/)
 
 ### Documentación
 
