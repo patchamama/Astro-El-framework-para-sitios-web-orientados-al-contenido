@@ -35,7 +35,12 @@ Para crear una ruta (path) es suficiente con crear un archivo en la carpeta `src
 
 En la carpeta `public` se guardan contenidos como imágenes, fonts e icons, que no se van a optimizar por parte de Astro pero al crear el build (`npm run build`) este contenido se pasará a la carpeta de producción (archivos estáticos finalmente en la carpeta `dist`) lista para hacer un _deployment_ en versel, github pages,...
 
-Al generarse un código final con el `npm run build` o comprobándolo con `npm run build & npm run preview` por defecto no se genera código _javascript_.
+Al generarse un código final con el `npm run build` o comprobándolo con `npm run build & npm run preview` por defecto _NO_ se genera código _javascript_. Sí agrega alguna section de js vanilla en el archivo .astro, este iría incrustrado en el html final que se genere.
+
+- [Nuestro primer sitio en Astro & Estructura de un proyecto](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/a854ac3285c474b7bf0a8346606031f54080da80)
+- [Sintaxis y funcionamiento de los archivos .astro](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/b138a0910124e63d503c99581f7dfcd4453b70de)
+- [Tarea - Actualizar momento actual](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/9c83c6a47f2658fc206c38288207d396561ef406)
+  _Aquí es importante entender que sí estamos comprobando en modo desarrollo la aplicación `npm run dev` entonces el "momento actual" y "momento actual real" tiene un mismo valor pues se está generando en el momento la fecha dinámicamente con el código js y se está mostrando. Sin embargo, ya en modo producción `npm run build & npm run preview` no es así pues la primera parte del código que determina que se mueste la hora de "momento actual" se genera puro html pegando ahí la hora en texto pero la segunda parte "momento actual real" se genera desde el código js en la sección <script>...</script> que determina que se muestre ese tiempo en el momento de visitarse la página_.
 
 ### Documentación
 
