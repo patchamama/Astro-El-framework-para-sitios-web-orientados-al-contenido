@@ -46,6 +46,9 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 - [Layouts y Props](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/31562a243df18de40e59059eef7f3a80c43ab816)
   _Los Layouts son componentes especiales que envuelven (wrapper) elementos <html>, <head> y <body> de una página y que permiten por ello insertar códigos a un template común_.
 - [Estilos por componente y globales](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/50008333604c4c994fb2c13e8f3e07322a5e5a9a)
+- [Página 404](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/013c4d661b6365c37d042fd62085fe863498cba6)
+- [View Transitions]()
+  _Lo que se hace es que se agrega el componente <ViewTransitions /> preferiblemente en el template/layout y esto permite que se cargen muy rápido las páginas como sí fuera un SPA, así sí hay algún enlace como un NavBar que navega a otra página entonces precarga la página antes de ser visitada y al visitar la página usa la opción ViewTransition del navegador con una animación que se puede también animar entre diferentes formas_.
 
 ### Snippers
 
@@ -57,3 +60,5 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 - https://docs.astro.build/en/reference/cli-reference/#astro-preferences
 - https://docs.astro.build/en/basics/layouts/
 - https://docs.astro.build/en/guides/styling/
+- https://dev.to/stackfindover/35-html-404-page-templates-5bge
+- https://docs.astro.build/en/guides/view-transitions/
