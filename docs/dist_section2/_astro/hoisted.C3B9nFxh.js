@@ -1,0 +1,1 @@
+import"./hoisted.XYQjTWMW.js";const e=new Date().getFullYear(),t=document.getElementById("current-time"),r=document.querySelector("footer");r.innerText=`Año: ${e}`;t.innerText=`Momento actual real: ${new Date().toLocaleTimeString()}`;

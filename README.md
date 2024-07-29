@@ -12,6 +12,8 @@ Hoja de atajos de Astro: Hoja de Atajos - Astro: https://github.com/Klerith/mas-
 
 ### Sección 2: Introducción a Astro
 
+[Curso Visual](https://cursos.devtalles.com/courses/take/Astro/lessons/55900239-introduccion-a-la-seccion)
+
 ```
 # Crear proyecto con Astro
 npm create astro@latest
@@ -49,8 +51,10 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 - [Página 404](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/013c4d661b6365c37d042fd62085fe863498cba6)
 - [View Transitions](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/729474a780d08b3af64c1fc951d4876741d92acd)
   _Lo que se hace es que se agrega el componente <ViewTransitions /> preferiblemente en el template/layout y esto permite que se cargen muy rápido las páginas como sí fuera un SPA, así sí hay algún enlace como un NavBar que navega a otra página entonces precarga la página antes de ser visitada y al visitar la página usa la opción ViewTransition del navegador con una animación que se puede también animar entre diferentes formas_.
-- [Recapitulación]()
+- [Recapitulación](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/25e2ff07df5f7598856eeea0af7e2faa21506586)
   _La diferencia de referenciar el archivo de css usando desde Astro `import '../styles/global.css'` y usando directamente en el head la referencia al archivo en la carpeta public `<link rel="stylessheet" href="styles/global.css" />` es que con import se preprocesa por el compilador de Astro el css y se minimiza_.
+- [Código fuente](https://github.com/DevTalles-corp/astro-foundation/tree/fin-seccion-02)
+- [Ver sitio en producción en github pages]()
 
 ### Snippers
 
