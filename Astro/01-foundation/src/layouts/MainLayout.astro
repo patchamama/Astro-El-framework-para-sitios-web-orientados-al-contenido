@@ -25,6 +25,9 @@ const { title, age, isActive } = Astro.props;
 	</head>
 	<body>
 		<NavBar />
-		<slot /> <!-- your content is injected here -->
+
+		<main>
+			<slot /> <!-- your content is injected here -->
+		</main>
 	</body>
 </html>

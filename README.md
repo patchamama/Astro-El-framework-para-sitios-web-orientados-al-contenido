@@ -47,8 +47,10 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
   _Los Layouts son componentes especiales que envuelven (wrapper) elementos <html>, <head> y <body> de una página y que permiten por ello insertar códigos a un template común_.
 - [Estilos por componente y globales](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/50008333604c4c994fb2c13e8f3e07322a5e5a9a)
 - [Página 404](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/013c4d661b6365c37d042fd62085fe863498cba6)
-- [View Transitions]()
+- [View Transitions](https://github.com/patchamama/devTalles-Astro-El-framework-para-sitios-web-orientados-al-contenido/commit/729474a780d08b3af64c1fc951d4876741d92acd)
   _Lo que se hace es que se agrega el componente <ViewTransitions /> preferiblemente en el template/layout y esto permite que se cargen muy rápido las páginas como sí fuera un SPA, así sí hay algún enlace como un NavBar que navega a otra página entonces precarga la página antes de ser visitada y al visitar la página usa la opción ViewTransition del navegador con una animación que se puede también animar entre diferentes formas_.
+- [Recapitulación]()
+  _La diferencia de referenciar el archivo de css usando desde Astro `import '../styles/global.css'` y usando directamente en el head la referencia al archivo en la carpeta public `<link rel="stylessheet" href="styles/global.css" />` es que con import se preprocesa por el compilador de Astro el css y se minimiza_.
 
 ### Snippers
 
