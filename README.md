@@ -12,7 +12,7 @@ Hoja de atajos de Astro: Hoja de Atajos - Astro: https://github.com/Klerith/mas-
 
 ### Sección 2: Introducción a Astro
 
-[Curso Visual](https://cursos.devtalles.com/courses/take/Astro/lessons/55900239-introduccion-a-la-seccion)
+[Ver sesión en devTalles](https://cursos.devtalles.com/courses/take/Astro/lessons/55900239-introduccion-a-la-seccion)
 
 ```
 # Crear proyecto con Astro
@@ -56,10 +56,6 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 - [Código fuente](https://github.com/DevTalles-corp/astro-foundation/tree/fin-seccion-02)
 - [Ver sitio en producción en github pages]()
 
-### Snippers
-
-- component (crea la estructura de un componente)
-
 ### Documentación
 
 - https://docs.astro.build/en/basics/project-structure/
@@ -68,3 +64,15 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 - https://docs.astro.build/en/guides/styling/
 - https://dev.to/stackfindover/35-html-404-page-templates-5bge
 - https://docs.astro.build/en/guides/view-transitions/
+
+===
+
+### Sección 3: Rutas dinámicas y paginación estática
+
+### Documentación
+
+===
+
+## Snippers
+
+- component (crea la estructura de un componente)
