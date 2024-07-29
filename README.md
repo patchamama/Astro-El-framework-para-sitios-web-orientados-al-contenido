@@ -10,9 +10,7 @@ _https://cursos.devtalles.com/courses/take/Astro_
 
 Hoja de atajos de Astro: Hoja de Atajos - Astro: https://github.com/Klerith/mas-talento/blob/main/astro/astro-cheat-sheet.pdf | [Aquí local](/blob/main/docs/astro-cheat-sheet.pdf)
 
-### Sección 2: Introducción a Astro
-
-[Ver sesión en devTalles](https://cursos.devtalles.com/courses/take/Astro/lessons/55900239-introduccion-a-la-seccion)
+### [Sección 2: Introducción a Astro](https://cursos.devtalles.com/courses/take/Astro/lessons/55900239-introduccion-a-la-seccion)
 
 ```
 # Crear proyecto con Astro
@@ -67,7 +65,7 @@ Al generarse un código final con el `npm run build` o comprobándolo con `npm r
 
 ===
 
-### Sección 3: Rutas dinámicas y paginación estática
+### [Sección 3: Rutas dinámicas y paginación estática](https://cursos.devtalles.com/courses/take/Astro/lessons/55934158-introduccion)
 
 ### Documentación
 
