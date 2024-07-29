@@ -22,11 +22,20 @@ npm install
 # Ejecutar proyecto con Astro y abrir página demo en navegador
 npm run dev
 open http://localhost:4321/
+
+# Crear el sitio para producción y abrir en navegador
+npm run build
+open dist/index.html
+# o `http-server dist` o puede ser también `cd dist & http-server -o`
+# también puede ser `npm run build & npm run preview`
+
 ```
 
 Para crear una ruta (path) es suficiente con crear un archivo en la carpeta `src/pages`, por ejemplo `src/pages/about.astro` y automáticamente el contenido de este archivo se mostrará en la url: `http://localhost:4321/about`
 
-En la carpeta `public` se guardan contenidos como imágenes que no se van a optimizar por parte de Astro pero al crear el build (`npm run build`) este contenido se pasará a la carpeta de producción (archivos estáticos finalmente en la carpeta `dist`) lista para hacer un _deployment_ en versel, github pages,...
+En la carpeta `public` se guardan contenidos como imágenes, fonts e icons, que no se van a optimizar por parte de Astro pero al crear el build (`npm run build`) este contenido se pasará a la carpeta de producción (archivos estáticos finalmente en la carpeta `dist`) lista para hacer un _deployment_ en versel, github pages,...
+
+Al generarse un código final con el `npm run build` o comprobándolo con `npm run build & npm run preview` por defecto no se genera código _javascript_.
 
 ### Documentación
 
